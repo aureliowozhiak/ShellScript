@@ -37,26 +37,6 @@ Este curso faz parte da plataforma DataEngineer.Help https://dataengineer.help/
 - Conteúdo: `$0`, `$1`, `$@`, `shift`, `getopts`.
 - Prática: `scripts/06_args.sh`.
 
-7) Manipulação de arquivos e textos
-- Objetivo: combinar comandos clássicos em scripts.
-- Conteúdo: `find`, `grep`, `cut`, `sed`, `awk`, redirecionamentos e pipelines.
-- Prática: `scripts/07_files_grep_sed.sh`.
-
-8) Automação: backup simples
-- Objetivo: empacotar e comprimir arquivos selecionados.
-- Conteúdo: `tar`, `gzip`, data em nomes, verificação de erros.
-- Prática: `scripts/08_backup.sh`.
-
-9) Agendamento e monitoração
-- Objetivo: rodar rotinas sem supervisão.
-- Conteúdo: `cron` (Linux) e Agendador de Tarefas (Windows), logs, notificações.
-- Prática: agendar `scripts/08_backup.sh` e revisar logs.
-
-10) Robustez e depuração
-- Objetivo: evitar armadilhas comuns.
-- Conteúdo: `set -euo pipefail`, `trap` para limpeza, `shellcheck`, `bash -x`.
-- Prática: adicionar `set -euo pipefail` e `trap` ao backup; rodar `shellcheck`.
-
 ## Como usar os materiais
 - Todos os scripts estão em `scripts/`; torne-os executáveis com `chmod +x scripts/*.sh`.
 - Execute com `./scripts/nome.sh` (ou `bash scripts/nome.sh`).
