@@ -1,5 +1,7 @@
 # Curso: Shell Script — Introdução e Automação de Tarefas
 
+Este curso faz parte da plataforma DataEngineer.Help (`https://dataengineer.help/`).
+
 ## Público-alvo e pré-requisitos
 - Público: iniciantes em automação no Linux (ou WSL) com noções básicas de linha de comando.
 - Pré-requisitos: terminal funcional, editor de texto, permissões para executar scripts.
